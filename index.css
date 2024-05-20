@@ -1,0 +1,209 @@
+:root{
+    font-size: 2vw;
+}
+
+
+
+body {
+    background-color: skyblue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container1{
+    text-align: center;
+}
+.summer{
+    width: 7rem;
+    height: 7rem;
+    background-color: orangered;
+    border-radius: 7rem;
+    box-shadow: rgb(255, 166, 0) 0.1rem 0.1rem 0.5rem 0.1rem;
+    position: absolute;
+    top: 2rem;
+    z-index: -1;
+    right: 1rem;
+}
+.summer:hover{
+    transition: 1s;
+    
+}
+.all_sky{
+    top: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+    
+}
+
+.sky{
+    background-color:rgb(240, 240, 240);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.sky1{
+    top: 3rem;
+    width: 8.2rem;
+    height: 2rem;
+    border-radius: 5rem;
+    position: absolute;
+
+}
+.sky2{
+    width: 2rem;
+   height: 3rem;
+    margin-left: 20px;
+    top: 2rem;
+    border-top-right-radius: 2rem;
+    position: absolute;
+}
+.sky3{
+    width: 2rem;
+   height: 3rem;
+    margin-left: 2.5rem;
+    top: 1rem;
+    border-top-right-radius: 2rem;
+    position: absolute;
+}
+.sky4{
+    width: 2rem;
+   height: 3rem;
+    margin-left: 4.3rem;
+    top: 2rem;
+    border-top-right-radius: 2rem;
+    position: absolute;
+}
+
+.sky5{
+    width: 2rem;
+   height: 2rem;
+    margin-left: 6rem;
+    top: 2.3rem;
+    border-top-right-radius: 4rem;
+    position: absolute;
+}
+
+.eagle{
+    width: 100vw;
+    top: 0.3rem;
+    position: absolute;
+    display: block;
+}
+.eagle_img{
+    width: 3rem;
+}
+.pigeons {
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    top: 0.1rem;
+
+    
+}
+.pigeons img{
+    width: 4rem;
+    
+}
+
+#droplet{
+    width: 1rem;
+    z-index: -1;
+
+}
+.mar{
+    position: absolute;
+    height: 80vh;
+    top: 4rem;
+}
+.droplet_div{
+    width: 100rem;
+    height: 100rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.container{
+    padding: 1rem;
+    position: absolute;
+    width: 25rem;
+    margin: 4rem 7rem 6rem 13rem;
+    h1{
+        margin-left: 2rem;
+        color: rgb(152, 121, 58);
+    }
+    input{
+        margin-left: 9rem;
+        margin-top: 1rem;
+        font-size: 0.7rem;
+        width: 6rem;
+        border-radius: 0.2rem;
+        text-align: center;
+    }
+    button{
+        font-size: 0.6rem;
+        margin-top: 1rem;
+        margin-left: 11rem;
+        border-radius: 0.5rem;
+        background-color: orange;
+        color: green ;
+        border: solid wheat;
+        width: 3rem;
+    }
+    button:hover{
+        background-color: orangered;
+        color: white;
+        border: solid green;
+    }
+   
+    .thermometer img{
+        width: 5rem;
+        height: 8rem;
+        mix-blend-mode:darken;
+        position: absolute;
+    }
+    span{
+     font-size: 0.8rem;
+     display: inline-block;
+     background-color: orange;
+     width: 1rem;
+     text-align: center;
+     border-radius: 0.2rem;
+     color: white;
+    }
+    span:hover{
+        background-color: aquamarine;
+        color: black;
+    }
+   
+}
+.copy{
+    position: absolute;
+     top: 21rem;
+     left: 23rem;
+}
+.tem{
+    
+    width: 0.37rem;
+    background-color: red;
+    position: absolute;
+    margin: 2.3rem 1rem 1rem 2.25rem;
+    z-index: -1;
+    height: 4.7rem;
+    overflow: hidden;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+.tem1{
+    
+    width: 0.37rem;
+    background-color: white;
+    position: absolute;
+    margin: 2.3rem 1rem 1rem 2.25rem;
+    z-index: 1;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    height: 4.7rem;
+}
+
